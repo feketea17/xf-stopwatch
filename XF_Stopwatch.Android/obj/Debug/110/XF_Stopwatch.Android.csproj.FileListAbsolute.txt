@@ -1,3 +1,12 @@
+C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\bin\Debug\XF_Stopwatch.Android.dll
+C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\bin\Debug\XF_Stopwatch.Android.pdb
+C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\bin\Debug\com.companyname.xf_stopwatch.apk
+C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\bin\Debug\com.companyname.xf_stopwatch.aab
+C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\bin\Debug\com.companyname.xf_stopwatch-Signed.aab
+C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\bin\Debug\com.companyname.xf_stopwatch-Signed.apk
+C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\bin\Debug\com.companyname.xf_stopwatch-Signed.apk.idsig
+C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\bin\Debug\XF_Stopwatch.dll
+C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\bin\Debug\XF_Stopwatch.pdb
 C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\obj\Debug\110\MonoAndroid,Version=v11.0.AssemblyAttributes.cs
 C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\obj\Debug\110\build.props
 C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\obj\Debug\110\adb.props
@@ -24,15 +33,6 @@ C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\obj\Debug\110\lp\8
 C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\obj\Debug\110\R.txt
 C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\obj\Debug\110\R.cs.flag
 C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\obj\Debug\110\XF_Stopwatch.Android.csproj.CoreCompileInputs.cache
-C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\bin\Debug\XF_Stopwatch.Android.dll
-C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\bin\Debug\XF_Stopwatch.Android.pdb
-C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\bin\Debug\com.companyname.xf_stopwatch.apk
-C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\bin\Debug\com.companyname.xf_stopwatch.aab
-C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\bin\Debug\com.companyname.xf_stopwatch-Signed.aab
-C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\bin\Debug\com.companyname.xf_stopwatch-Signed.apk
-C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\bin\Debug\com.companyname.xf_stopwatch-Signed.apk.idsig
-C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\bin\Debug\XF_Stopwatch.dll
-C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\bin\Debug\XF_Stopwatch.pdb
 C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\obj\Debug\110\XF_Stopwatch.Android.csproj.CopyComplete
 C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\obj\Debug\110\XF_Stopwatch.Android.dll
 C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\obj\Debug\110\XF_Stopwatch.Android.pdb
@@ -54,6 +54,7 @@ C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\obj\Debug\110\res\
 C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\obj\Debug\110\res\mipmap-xxhdpi\launcher_foreground.png
 C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\obj\Debug\110\res\mipmap-xxxhdpi\icon.png
 C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\obj\Debug\110\res\mipmap-xxxhdpi\launcher_foreground.png
+C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\obj\Debug\110\res\drawable\kate.png
 C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\obj\Debug\110\uploadflags.txt
 C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\obj\Debug\110\resolvedassemblies.hash
 C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch.Android\obj\Debug\110\android\assets\FormsViewGroup.dll

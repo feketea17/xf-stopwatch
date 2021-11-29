@@ -6,16 +6,16 @@
     <StackLayout Padding="25">
         <Frame BackgroundColor="WhiteSmoke" Padding="15" Margin="0,0,0,20">
             <Label x:Name="lbTimer"
-                   Text="00:00:00"
+                   Text="00:00:00.000000"
                    FontFamily="digital-7.ttf#Digital-7 Regular"
                    FontSize="45"
                    FontAttributes="Bold"
                    HorizontalOptions="Start">
             </Label>
         </Frame>
+        <Image Source="Kate.png"/>
         <Grid HorizontalOptions="Center">
             <Grid.RowDefinitions>
-                <RowDefinition />
                 <RowDefinition />
                 <RowDefinition />
                 <RowDefinition />
@@ -25,26 +25,34 @@
             </Grid.ColumnDefinitions>
             <Button Grid.Row="0" 
                     Grid.Column="0" 
-                    Text="Start"   
+                    Text="Start" 
+                    TextColor="Green"
                     FontAttributes="Bold" 
                     Padding="5" 
+                    WidthRequest="200"
+                    HorizontalOptions="Center"
                     x:Name="btStart" 
                     Clicked="btStart_Clicked"/>
             <Button Grid.Row="1" 
                     Grid.Column="0" 
                     Text="Stop"   
+                    TextColor="Red"
                     FontAttributes="Bold" 
                     Padding="5" 
+                    WidthRequest="200"
+                    HorizontalOptions="Center"
                     x:Name="btStop" 
                     Clicked="btStop_Clicked"/>
             <Button Grid.Row="2" 
                     Grid.Column="0" 
-                    Text="Reset"   
+                    Text="Reset"
+                    TextColor="DarkOrange"
                     FontAttributes="Bold" 
                     Padding="5" 
+                    WidthRequest="200"
+                    HorizontalOptions="Center"
                     x:Name="btReset" 
                     Clicked="btReset_Clicked"/>
-            
         </Grid>
     </StackLayout>
 

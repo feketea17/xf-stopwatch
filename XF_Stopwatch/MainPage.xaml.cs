@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace XF_Stopwatch
@@ -19,12 +14,15 @@ namespace XF_Stopwatch
             stopwatch = new Stopwatch();
         }
 
+        private bool needResume = true;         // Start gomb "Resume"-ra állításához
+
         private void btStart_Clicked(object sender, EventArgs e)
         {
+            needResume = true;
             stopwatch.Start();
             Device.StartTimer(TimeSpan.FromMilliseconds(100), () =>
              {
-                 lbTimer.Text = stopwatch.Elapsed.ToString();
+                 lbTimer.Text = stopwatch.Elapsed.ToString();       // eltelt idő megjelenítése
                  return true;
              });
         }
@@ -32,11 +30,17 @@ namespace XF_Stopwatch
         private void btStop_Clicked(object sender, EventArgs e)
         {
             stopwatch.Stop();
+            if (needResume == true)         // ha true, akkor a "Start" felirat "Resume"-ra vált
+            {
+                btStart.Text = "Resume";
+            }
         }
 
         private void btReset_Clicked(object sender, EventArgs e)
         {
             stopwatch.Reset();
+            needResume = false;             // Reset után erre már nincs szükség
+            btStart.Text = "Start";         // "Start" felirat visszaállítása
         }
     } 
 }
