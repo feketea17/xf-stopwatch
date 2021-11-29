@@ -35,7 +35,17 @@
                     Clicked="btStart_Clicked"/>
             <Button Grid.Row="1" 
                     Grid.Column="0" 
-                    Text="Stop"   
+                    Text="Pause"   
+                    TextColor="DarkOrange"
+                    FontAttributes="Bold" 
+                    Padding="5" 
+                    WidthRequest="200"
+                    HorizontalOptions="Center"
+                    x:Name="btPause"
+                    Clicked="btPause_Clicked"/>
+            <Button Grid.Row="2" 
+                    Grid.Column="0" 
+                    Text="Stop"
                     TextColor="Red"
                     FontAttributes="Bold" 
                     Padding="5" 
@@ -43,16 +53,6 @@
                     HorizontalOptions="Center"
                     x:Name="btStop" 
                     Clicked="btStop_Clicked"/>
-            <Button Grid.Row="2" 
-                    Grid.Column="0" 
-                    Text="Reset"
-                    TextColor="DarkOrange"
-                    FontAttributes="Bold" 
-                    Padding="5" 
-                    WidthRequest="200"
-                    HorizontalOptions="Center"
-                    x:Name="btReset" 
-                    Clicked="btReset_Clicked"/>
         </Grid>
     </StackLayout>
 

@@ -14,7 +14,7 @@ namespace XF_Stopwatch
             stopwatch = new Stopwatch();
         }
 
-        private bool needResume = true;         // Start gomb "Resume"-ra állításához
+        private bool needResume = false;         // Start gomb "Resume"-ra állításához
 
         private void btStart_Clicked(object sender, EventArgs e)
         {
@@ -27,7 +27,7 @@ namespace XF_Stopwatch
              });
         }
 
-        private void btStop_Clicked(object sender, EventArgs e)
+        private void btPause_Clicked(object sender, EventArgs e)
         {
             stopwatch.Stop();
             if (needResume == true)         // ha true, akkor a "Start" felirat "Resume"-ra vált
@@ -36,7 +36,7 @@ namespace XF_Stopwatch
             }
         }
 
-        private void btReset_Clicked(object sender, EventArgs e)
+        private void btStop_Clicked(object sender, EventArgs e)
         {
             stopwatch.Reset();
             needResume = false;             // Reset után erre már nincs szükség
