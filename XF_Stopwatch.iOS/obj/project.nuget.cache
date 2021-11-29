@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "JXND3+qArbUuYeSW91AC76jHa9OIeMM9yFUrgy+Zs7bcvt/8K4rGGwjqu4+Q4yijJD3y+kZABIkDcoLwdVKkXg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\feket\\source\\repos\\XF_Stopwatch\\XF_Stopwatch.iOS\\XF_Stopwatch.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\feket\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
