@@ -1,0 +1,15 @@
+C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch\obj\Debug\netstandard2.0\XF_Stopwatch.csproj.AssemblyReference.cache
+C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch\obj\Debug\netstandard2.0\XF_Stopwatch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch\obj\Debug\netstandard2.0\XF_Stopwatch.AssemblyInfoInputs.cache
+C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch\obj\Debug\netstandard2.0\XF_Stopwatch.AssemblyInfo.cs
+C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch\obj\Debug\netstandard2.0\XF_Stopwatch.csproj.CoreCompileInputs.cache
+C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch\bin\Debug\netstandard2.0\XF_Stopwatch.deps.json
+C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch\bin\Debug\netstandard2.0\XF_Stopwatch.dll
+C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch\bin\Debug\netstandard2.0\ref\XF_Stopwatch.dll
+C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch\bin\Debug\netstandard2.0\XF_Stopwatch.pdb
+C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch\obj\Debug\netstandard2.0\XF_Stopwatch.dll
+C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch\obj\Debug\netstandard2.0\ref\XF_Stopwatch.dll
+C:\Users\feket\source\repos\XF_Stopwatch\XF_Stopwatch\obj\Debug\netstandard2.0\XF_Stopwatch.pdb

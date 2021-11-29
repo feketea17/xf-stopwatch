@@ -3,22 +3,49 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XF_Stopwatch.MainPage">
 
-    <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+    <StackLayout Padding="25">
+        <Frame BackgroundColor="WhiteSmoke" Padding="15" Margin="0,0,0,20">
+            <Label x:Name="lbTimer"
+                   Text="00:00:00"
+                   FontFamily="digital-7.ttf#Digital-7 Regular"
+                   FontSize="50"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center">
+            </Label>
         </Frame>
-        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
+        <Grid HorizontalOptions="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Button Grid.Row="0" 
+                    Grid.Column="0" 
+                    Text="Start"   
+                    FontAttributes="Bold" 
+                    Padding="5" 
+                    x:Name="btStart" 
+                    Clicked="btStart_Clicked"/>
+            <Button Grid.Row="1" 
+                    Grid.Column="0" 
+                    Text="Stop"   
+                    FontAttributes="Bold" 
+                    Padding="5" 
+                    x:Name="btStop" 
+                    Clicked="btStop_Clicked"/>
+            <Button Grid.Row="2" 
+                    Grid.Column="0" 
+                    Text="Reset"   
+                    FontAttributes="Bold" 
+                    Padding="5" 
+                    x:Name="btReset" 
+                    Clicked="btReset_Clicked"/>
+            
+        </Grid>
     </StackLayout>
 
 </ContentPage>

@@ -23,5 +23,15 @@ namespace XF_Stopwatch
         {
 
         }
+
+        private void btStop_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btReset_Clicked(object sender, EventArgs e)
+        {
+
+        }
     } 
 }
