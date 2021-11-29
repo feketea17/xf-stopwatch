@@ -8,9 +8,9 @@
             <Label x:Name="lbTimer"
                    Text="00:00:00"
                    FontFamily="digital-7.ttf#Digital-7 Regular"
-                   FontSize="50"
+                   FontSize="45"
                    FontAttributes="Bold"
-                   HorizontalOptions="Center">
+                   HorizontalOptions="Start">
             </Label>
         </Frame>
         <Grid HorizontalOptions="Center">

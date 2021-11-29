@@ -21,17 +21,22 @@ namespace XF_Stopwatch
 
         private void btStart_Clicked(object sender, EventArgs e)
         {
-
+            stopwatch.Start();
+            Device.StartTimer(TimeSpan.FromMilliseconds(100), () =>
+             {
+                 lbTimer.Text = stopwatch.Elapsed.ToString();
+                 return true;
+             });
         }
 
         private void btStop_Clicked(object sender, EventArgs e)
         {
-
+            stopwatch.Stop();
         }
 
         private void btReset_Clicked(object sender, EventArgs e)
         {
-
+            stopwatch.Reset();
         }
     } 
 }
